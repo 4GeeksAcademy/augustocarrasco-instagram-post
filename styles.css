@@ -5,6 +5,16 @@
     font-size: 1em;
 }
 
+.hor {
+    display: flex;
+    flex-direction: row;
+}
+
+.ver {
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     max-width:800px;
     margin: auto;
@@ -88,15 +98,7 @@ span {
     text-justify:inter-word;
 }
 
-.hor {
-    display: flex;
-    flex-direction: row;
-}
 
-.ver {
-    display: flex;
-    flex-direction: column;
-}
 .iii {
     margin-left: 3px;
 }

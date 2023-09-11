@@ -33,7 +33,6 @@ span {
     border-radius: 1px;
 }
 .post-header {
-    display:flex;
     justify-content: space-between;
     padding:5px;
 }
@@ -70,15 +69,16 @@ span {
     background-color: black;
 }
 .post-img {
-    display:flex;
+    
     justify-content: center;
     background-color: rgb(224, 224, 224);
 }
 .post-icons {
-    display:flex;
+    
     justify-content: space-between;
     font-size: 1.2em;
 }
+
 .post-body {
     padding: 10px;
 }
@@ -88,4 +88,15 @@ span {
     text-justify:inter-word;
 }
 
+.hor {
+    display: flex;
+    flex-direction: row;
+}
 
+.ver {
+    display: flex;
+    flex-direction: column;
+}
+.iii {
+    margin-left: 3px;
+}
